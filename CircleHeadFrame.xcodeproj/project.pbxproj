@@ -15,6 +15,14 @@
 		CF3710FF2108B6F300C37BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3710FE2108B6F300C37BB7 /* main.m */; };
 		CF3711092108B6F300C37BB7 /* CircleHeadFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711082108B6F300C37BB7 /* CircleHeadFrameTests.m */; };
 		CF3711142108B6F300C37BB7 /* CircleHeadFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711132108B6F300C37BB7 /* CircleHeadFrameUITests.m */; };
+		CF3711362109622B00C37BB7 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711242109622B00C37BB7 /* CGGeometry+RSKImageCropper.m */; };
+		CF3711372109622B00C37BB7 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711252109622B00C37BB7 /* RSKInternalUtility.m */; };
+		CF3711382109622B00C37BB7 /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711262109622B00C37BB7 /* RSKTouchView.m */; };
+		CF3711392109622B00C37BB7 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711282109622B00C37BB7 /* UIApplication+RSKImageCropper.m */; };
+		CF37113A2109622B00C37BB7 /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711292109622B00C37BB7 /* RSKImageCropViewController.m */; };
+		CF37113B2109622B00C37BB7 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF37112A2109622B00C37BB7 /* UIImage+RSKImageCropper.m */; };
+		CF37113C2109622B00C37BB7 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF37112F2109622B00C37BB7 /* RSKImageCropperStrings.bundle */; };
+		CF37113D2109622B00C37BB7 /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3711352109622B00C37BB7 /* RSKImageScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,24 @@
 		CF37110F2108B6F300C37BB7 /* CircleHeadFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleHeadFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3711132108B6F300C37BB7 /* CircleHeadFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleHeadFrameUITests.m; sourceTree = "<group>"; };
 		CF3711152108B6F300C37BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3711242109622B00C37BB7 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
+		CF3711252109622B00C37BB7 /* RSKInternalUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKInternalUtility.m; sourceTree = "<group>"; };
+		CF3711262109622B00C37BB7 /* RSKTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKTouchView.m; sourceTree = "<group>"; };
+		CF3711272109622B00C37BB7 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
+		CF3711282109622B00C37BB7 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
+		CF3711292109622B00C37BB7 /* RSKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageCropViewController.m; sourceTree = "<group>"; };
+		CF37112A2109622B00C37BB7 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
+		CF37112B2109622B00C37BB7 /* RSKImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageScrollView.h; sourceTree = "<group>"; };
+		CF37112C2109622B00C37BB7 /* RSKTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKTouchView.h; sourceTree = "<group>"; };
+		CF37112D2109622B00C37BB7 /* RSKInternalUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKInternalUtility.h; sourceTree = "<group>"; };
+		CF37112E2109622B00C37BB7 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
+		CF37112F2109622B00C37BB7 /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
+		CF3711302109622B00C37BB7 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
+		CF3711312109622B00C37BB7 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropViewController.h; sourceTree = "<group>"; };
+		CF3711322109622B00C37BB7 /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		CF3711332109622B00C37BB7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CF3711342109622B00C37BB7 /* RSKImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSKImageCropper.h; sourceTree = "<group>"; };
+		CF3711352109622B00C37BB7 /* RSKImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSKImageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +131,7 @@
 				CF3710F02108B6F100C37BB7 /* AppDelegate.m */,
 				CF3710F22108B6F100C37BB7 /* ViewController.h */,
 				CF3710F32108B6F100C37BB7 /* ViewController.m */,
+				CF3711232109622B00C37BB7 /* RSKImageCropper */,
 				CF3710F52108B6F100C37BB7 /* Main.storyboard */,
 				CF3710F82108B6F300C37BB7 /* Assets.xcassets */,
 				CF3710FA2108B6F300C37BB7 /* LaunchScreen.storyboard */,
@@ -130,6 +157,31 @@
 				CF3711152108B6F300C37BB7 /* Info.plist */,
 			);
 			path = CircleHeadFrameUITests;
+			sourceTree = "<group>";
+		};
+		CF3711232109622B00C37BB7 /* RSKImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				CF3711242109622B00C37BB7 /* CGGeometry+RSKImageCropper.m */,
+				CF3711252109622B00C37BB7 /* RSKInternalUtility.m */,
+				CF3711262109622B00C37BB7 /* RSKTouchView.m */,
+				CF3711272109622B00C37BB7 /* RSKImageCropViewController+Protected.h */,
+				CF3711282109622B00C37BB7 /* UIApplication+RSKImageCropper.m */,
+				CF3711292109622B00C37BB7 /* RSKImageCropViewController.m */,
+				CF37112A2109622B00C37BB7 /* UIImage+RSKImageCropper.m */,
+				CF37112B2109622B00C37BB7 /* RSKImageScrollView.h */,
+				CF37112C2109622B00C37BB7 /* RSKTouchView.h */,
+				CF37112D2109622B00C37BB7 /* RSKInternalUtility.h */,
+				CF37112E2109622B00C37BB7 /* CGGeometry+RSKImageCropper.h */,
+				CF37112F2109622B00C37BB7 /* RSKImageCropperStrings.bundle */,
+				CF3711302109622B00C37BB7 /* UIImage+RSKImageCropper.h */,
+				CF3711312109622B00C37BB7 /* RSKImageCropViewController.h */,
+				CF3711322109622B00C37BB7 /* UIApplication+RSKImageCropper.h */,
+				CF3711332109622B00C37BB7 /* module.modulemap */,
+				CF3711342109622B00C37BB7 /* RSKImageCropper.h */,
+				CF3711352109622B00C37BB7 /* RSKImageScrollView.m */,
+			);
+			path = RSKImageCropper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3710FC2108B6F300C37BB7 /* LaunchScreen.storyboard in Resources */,
+				CF37113C2109622B00C37BB7 /* RSKImageCropperStrings.bundle in Resources */,
 				CF3710F92108B6F300C37BB7 /* Assets.xcassets in Resources */,
 				CF3710F72108B6F100C37BB7 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF37113D2109622B00C37BB7 /* RSKImageScrollView.m in Sources */,
 				CF3710F42108B6F100C37BB7 /* ViewController.m in Sources */,
+				CF3711372109622B00C37BB7 /* RSKInternalUtility.m in Sources */,
 				CF3710FF2108B6F300C37BB7 /* main.m in Sources */,
+				CF3711382109622B00C37BB7 /* RSKTouchView.m in Sources */,
+				CF37113B2109622B00C37BB7 /* UIImage+RSKImageCropper.m in Sources */,
+				CF3711392109622B00C37BB7 /* UIApplication+RSKImageCropper.m in Sources */,
+				CF37113A2109622B00C37BB7 /* RSKImageCropViewController.m in Sources */,
+				CF3711362109622B00C37BB7 /* CGGeometry+RSKImageCropper.m in Sources */,
 				CF3710F12108B6F100C37BB7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +494,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = CircleHeadFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +512,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = CircleHeadFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
